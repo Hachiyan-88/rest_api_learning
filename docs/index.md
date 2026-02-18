@@ -3,6 +3,8 @@ layout: default
 title: REST API & JSON 学習ノート
 ---
 
+<!-- markdownlint-disable MD033 -->
+
 # REST API & JSON 学習ノート
 
 このリポジトリ（またはフォルダ）は、
@@ -40,36 +42,57 @@ title: REST API & JSON 学習ノート
 
 ## 📚ドキュメント一覧
 
-### 🔰基礎理解
+<div class="card-grid">
 
-- 👉 [RESTとは](01_restとは.html)
-- 👉 [HTTPの基礎](02_httpの基礎.html)
-- 👉 [HTTPメソッド詳解](03_httpメソッド詳解.html)
-- 👉 [ステートレスとは](04_ステートレスとは.html)
+<div class="card">
+<h3>🔰 基礎理解</h3>
+<ul>
+<li><a href="01_restとは.html">RESTとは</a></li>
+<li><a href="02_httpの基礎.html">HTTPの基礎</a></li>
+<li><a href="03_httpメソッド詳解.html">HTTPメソッド詳解</a></li>
+<li><a href="04_ステートレスとは.html">ステートレスとは</a></li>
+</ul>
+</div>
 
-### 📦データ理解
+<div class="card">
+<h3>📦 データ理解</h3>
+<ul>
+<li><a href="05_jsonの基礎.html">JSONの基礎</a></li>
+<li><a href="06_restとjsonの関係.html">RESTとJSONの関係</a></li>
+</ul>
+</div>
 
-- 👉 [JSONの基礎](05_jsonの基礎.html)
-- 👉 [RESTとJSONの関係](06_restとjsonの関係.html)
+<div class="card">
+<h3>🔙 バックエンド視点</h3>
+<ul>
+<li><a href="07_apiの裏側の流れ.html">APIの裏側の流れ</a></li>
+</ul>
+</div>
 
-### 🔙🔚バックエンド視点
+<div class="card">
+<h3>⚠️ つまずきやすいポイント</h3>
+<ul>
+<li><a href="08_よくある勘違い.html">よくある勘違い</a></li>
+<li><a href="09_つまずきポイント.html">つまずきポイント</a></li>
+</ul>
+</div>
 
-- 👉 [APIの裏側の流れ](07_apiの裏側の流れ.html)
+<div class="card">
+<h3>🔍 ステップアップ</h3>
+<ul>
+<li><a href="10_フロントエンドとAPIの関係.html">フロントエンドとAPIの関係</a></li>
+<li><a href="11_Postman入門.html">Postman入門</a></li>
+</ul>
+</div>
 
-### ⚠️初学者がつまずきやすいポイント
+<div class="card">
+<h3>📖 参照用</h3>
+<ul>
+<li><a href="99_用語集.html">用語集</a></li>
+</ul>
+</div>
 
-- 👉 [よくある勘違い](08_よくある勘違い.html)
-- 👉 [つまずきポイント](09_つまずきポイント.html)
-
-### 🔍実践理解（ステップアップ）
-
-- 👉 [フロントエンドとAPIの関係](10_フロントエンドとAPIの関係.html)
-- 👉 [Postman入門](11_Postman入門.html)
-
-### 📖参照用
-
-- 👉 [用語集](99_用語集.html)
-
+</div>
 ---
 
 ## 📚 このノートの構成

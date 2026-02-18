@@ -3,5 +3,7 @@
         "Hanako",
         "pgsql",
         "vbnet"
-    ]
+    ],
+    "scss.validate": false,
+    "css.validate": false
 }
