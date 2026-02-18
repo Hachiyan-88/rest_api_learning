@@ -4,3 +4,5 @@ description: 初学者向けにREST APIとJSONを個人的に整理したメモ
 
 sass:
   sass_dir: assets/css
+
+baseurl: "/rest_api_learning"

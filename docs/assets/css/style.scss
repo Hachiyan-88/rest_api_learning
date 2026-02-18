@@ -1,24 +1,19 @@
 ---
 ---
 
-/* ===============================
-   基本レイアウト
-=============================== */
+/* ========= 基本レイアウト ========= */
 
 body {
-  background-color: pink;
-  // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  // max-width: 900px;
-  // margin: auto;
-  // line-height: 1.8;
-  // padding: 20px;
-  // background: #fafafa;
-  // color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.8;
+  padding: 20px;
+  background: #fafafa;
+  color: #333;
 }
 
-/* ===============================
-   見出し
-=============================== */
+/* ========= 見出し ========= */
 
 h1, h2, h3 {
   border-bottom: 2px solid #eee;
@@ -38,9 +33,7 @@ h3 {
   font-size: 1.3em;
 }
 
-/* ===============================
-   リンク
-=============================== */
+/* ========= リンク ========= */
 
 a {
   color: #0366d6;
@@ -51,9 +44,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ===============================
-   コード表示
-=============================== */
+/* ========= コード表示 ========= */
 
 code {
   background: #f4f4f4;
@@ -76,9 +67,7 @@ pre code {
   padding: 0;
 }
 
-/* ===============================
-   引用（blockquote）
-=============================== */
+/* ========= 引用（blockquote）========= */
 
 blockquote {
   border-left: 4px solid #ddd;
@@ -88,9 +77,7 @@ blockquote {
   background: #f9f9f9;
 }
 
-/* ===============================
-   表（テーブル）
-=============================== */
+/* ========= 表（テーブル）========= */
 
 table {
   border-collapse: collapse;
@@ -107,9 +94,7 @@ th {
   background: #f2f2f2;
 }
 
-/* ===============================
-   区切り線（Horizontal Rule）
-=============================== */
+/* ========= 区切り線（Horizontal Rule）========= */
 
 hr {
   border: none;
@@ -117,9 +102,7 @@ hr {
   margin: 40px 0;
 }
 
-/* ===============================
-   レスポンシブ対応（スマホ）
-=============================== */
+/* ========= レスポンシブ対応（スマホ）========== */
 
 @media (max-width: 600px) {
   body {
@@ -133,4 +116,79 @@ hr {
   h2 {
     font-size: 1.3em;
   }
+}
+
+/* ========= 全体の余白改善 ========= */
+
+p {
+  margin: 1em 0;
+}
+
+ul, ol {
+  margin: 1em 0 1em 1.5em;
+}
+
+/* ========= 見出しをさらに読みやすく ========= */
+
+h1 {
+  background: linear-gradient(90deg, #3f51b5, #5c6bc0);
+  color: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+}
+
+h2 {
+  background: #e0f2f1;
+  border-left: 6px solid #009688;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+h3 {
+  color: #ff7043;
+  margin-top: 1.5em;
+}
+
+/* ========= コードブロック改善 ========= */
+
+pre {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* ========= インラインコード ========= */
+
+code {
+  background: #eef1f4;
+  color: #d63384;
+  font-weight: 500;
+}
+
+/* ========= NOTE ボックス ========= */
+
+.note-box {
+  background: #e3f2fd;
+  border-left: 6px solid #42a5f5;
+  padding: 1em;
+  margin: 1.5em 0;
+  border-radius: 6px;
+}
+
+/* ========= 注意ボックス ========= */
+
+.warning-box {
+  background: #fff3e0;
+  border-left: 6px solid #fb8c00;
+  padding: 1em;
+  margin: 1.5em 0;
+  border-radius: 6px;
+}
+
+/* ========= ナビリンク ========= */
+
+.nav-links {
+  margin-top: 3em;
+  padding: 1em;
+  background: #f1f8e9;
+  border-radius: 8px;
+  text-align: center;
 }
