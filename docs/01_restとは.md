@@ -203,6 +203,6 @@ RESTは法律ではなく、**読みやすいコードを書くための指針**
 
 ---
 
-👉 次へ → :[02_HTTPの基礎](/docs/02_httpの基礎.md)
+👉 次へ → :[02_HTTPの基礎](02_httpの基礎.html)
 
-👈 TOPへ → :[TOPページ](/README.md)
+👈 TOPへ → :[TOPページ](index.html)

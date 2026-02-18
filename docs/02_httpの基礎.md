@@ -216,10 +216,10 @@ Content-Type: application/json
 
 ---
 
-👈 前へ → :[01_RESTとは](/docs/01_restとは.md)
+👈 前へ → :[01_RESTとは](01_restとは.html)
 
-👉 次へ → :[03_HTTPメソッド詳解](/docs/03_httpメソッド詳解.md)
+👉 次へ → :[03_HTTPメソッド詳解](03_httpメソッド詳解.html)
 
 ---
 
-👈 TOPへ → :[TOPページ](/README.md)
+👈 TOPへ → :[TOPページ](index.html)

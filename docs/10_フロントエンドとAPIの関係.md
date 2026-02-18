@@ -271,10 +271,10 @@ POST /cart
 
 ---
 
-👈 前へ → :[09_つまずきポイント](/docs/09_つまずきポイント.md)
+👈 前へ → :[09_つまずきポイント](09_つまずきポイント.html)
 
-👉 次へ → :[11_Postman入門](/docs/11_Postman入門.md)
+👉 次へ → :[11_Postman入門](11_Postman入門.html)
 
 ---
 
-👈 TOPへ → :[TOPページ](/README.md)
+👈 TOPへ → :[TOPページ](index.html)

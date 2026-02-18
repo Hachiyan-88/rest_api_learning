@@ -210,10 +210,10 @@ APIの裏側では：
 
 ---
 
-👈 前へ → :[06_RESTとJSONの関係](/docs/06_restとjsonの関係.md)
+👈 前へ → :[06_RESTとJSONの関係](06_restとjsonの関係.html)
 
-👉 次へ → :[08_よくある勘違い集](/docs/08_よくある勘違い.md)
+👉 次へ → :[08_よくある勘違い集](08_よくある勘違い.html)
 
 ---
 
-👈 TOPへ → :[TOPページ](/README.md)
+👈 TOPへ → :[TOPページ](index.html)

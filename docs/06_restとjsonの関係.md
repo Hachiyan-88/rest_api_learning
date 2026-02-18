@@ -198,10 +198,10 @@ RESTだからJSONなのではない！
 
 ---
 
-👈 前へ → :[05_JSONの基礎](/docs/05_jsonの基礎.md)
+👈 前へ → :[05_JSONの基礎](05_jsonの基礎.html)
 
-👉 次へ → :[07_APIの裏側の流れ](/docs/07_apiの裏側の流れ.md)
+👉 次へ → :[07_APIの裏側の流れ](07_apiの裏側の流れ.html)
 
 ---
 
-👈 TOPへ → :[TOPページ](/README.md)
+👈 TOPへ → :[TOPページ](index.html)

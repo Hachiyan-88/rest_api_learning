@@ -42,33 +42,33 @@ title: REST API & JSON 学習ノート
 
 ### 🔰基礎理解
 
-- 👉 [RESTとは]({{ "/docs/01_restとは.html" | relative_url }})
-- 👉 [HTTPの基礎]({{ "/docs/02_httpの基礎.html" | relative_url }})
-- 👉 [HTTPメソッド詳解]({{ "/docs/03_httpメソッド詳解.html" | relative_url }})
-- 👉 [ステートレスとは]({{ "/docs/04_ステートレスとは.html" | relative_url }})
+- 👉 [RESTとは](01_restとは.html)
+- 👉 [HTTPの基礎](02_httpの基礎.html)
+- 👉 [HTTPメソッド詳解](03_httpメソッド詳解.html)
+- 👉 [ステートレスとは](04_ステートレスとは.html)
 
 ### 📦データ理解
 
-- 👉 [JSONの基礎]({{ "/docs/05_jsonの基礎.html" | relative_url }})
-- 👉 [RESTとJSONの関係]({{ "/docs/06_restとjsonの関係.html" | relative_url }})
+- 👉 [JSONの基礎](05_jsonの基礎.html)
+- 👉 [RESTとJSONの関係](06_restとjsonの関係.html)
 
 ### 🔙🔚バックエンド視点
 
-- 👉 [APIの裏側の流れ]({{ "/docs/07_apiの裏側の流れ.html" | relative_url }})
+- 👉 [APIの裏側の流れ](07_apiの裏側の流れ.html)
 
 ### ⚠️初学者がつまずきやすいポイント
 
-- 👉 [よくある勘違い]({{ "/docs/08_よくある勘違い.html" | relative_url }})
-- 👉 [つまずきポイント]({{ "/docs/09_つまずきポイント.html" | relative_url }})
+- 👉 [よくある勘違い](08_よくある勘違い.html)
+- 👉 [つまずきポイント](09_つまずきポイント.html)
 
 ### 🔍実践理解（ステップアップ）
 
-- 👉 [フロントエンドとAPIの関係]({{ "/docs/10_フロントエンドとAPIの関係.html" | relative_url }})
-- 👉 [Postman入門]({{ "/docs/11_Postman入門.html" | relative_url }})
+- 👉 [フロントエンドとAPIの関係](10_フロントエンドとAPIの関係.html)
+- 👉 [Postman入門](11_Postman入門.html)
 
 ### 📖参照用
 
-- 👉 [用語集]({{ "/docs/99_用語集.html" | relative_url }})
+- 👉 [用語集](99_用語集.html)
 
 ---
 

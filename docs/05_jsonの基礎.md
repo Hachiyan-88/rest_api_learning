@@ -276,10 +276,10 @@ Content-Type: application/json
 
 ---
 
-👈 前へ → :[04_ステートレスとは](/docs/04_ステートレスとは.md)
+👈 前へ → :[04_ステートレスとは](04_ステートレスとは.html)
 
-👉 次へ → :[06_RESTとJSONの関係](/docs/06_restとjsonの関係.md)
+👉 次へ → :[06_RESTとJSONの関係](06_restとjsonの関係.html)
 
 ---
 
-👈 TOPへ → :[TOPページ](/README.md)
+👈 TOPへ → :[TOPページ](index.html)
