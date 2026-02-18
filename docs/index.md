@@ -1,3 +1,8 @@
+---
+layout: default
+title: REST API & JSON 学習ノート
+---
+
 # REST API & JSON 学習ノート
 
 このリポジトリ（またはフォルダ）は、
