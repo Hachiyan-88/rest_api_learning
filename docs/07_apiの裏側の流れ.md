@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD033 -->
 # APIの裏側の流れ（内部処理を図解する）
 
 このページでは、
@@ -86,6 +87,14 @@ public User create(@RequestBody User user) {
 という。
 
 ここの型が一致していないと400エラーになる。
+
+---
+
+<div class="note-box">
+<strong>補足</strong><br>
+Springなどのフレームワークが、自動的に<br>
+JSON ⇄ オブジェクト変換を行っています。
+</div>
 
 ---
 

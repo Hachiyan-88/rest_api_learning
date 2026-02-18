@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD033 -->
 # JSONの基礎（データの形を理解する）
 
 このページでは、
@@ -94,6 +95,14 @@ JSONには主に2つの要素がある。
 
 オブジェクトが何個も並ぶケースは実務で頻出。
 APIレスポンスでよく見る形。
+
+---
+
+<div class="warning-box">
+<strong>注意</strong><br>
+⚠ JSONでは数値と文字列は別物です。<br>
+"25"（文字列）と 25（数値）は違うデータとして扱われます。
+</div>
 
 ---
 
@@ -219,6 +228,14 @@ Content-Type: application/json
 
 ---
 
+<div class="warning-box">
+<strong>注意</strong><br>
+⚠ JSONはそのままでは処理できません。<br>
+プログラム側で「解析（パース）」して初めて利用できます。
+</div>
+
+---
+
 ## よく起こるエラー例
 
 - カンマの付け忘れ
@@ -253,6 +270,15 @@ Content-Type: application/json
 と宣言している。
 
 サーバー側はこれを見て、JSONとして処理する。
+
+---
+
+<div class="warning-box">
+<strong>注意</strong><br>
+⚠ Content-Type: application/json は<br>
+「RESTだからJSON」ではなく、<br>
+「今回の通信の中身がJSON」という意味です。
+</div>
 
 ---
 

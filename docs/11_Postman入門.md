@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD033 -->
 # Postman入門
 
 ## Postmanとは？
@@ -61,6 +62,13 @@
     ↓
 ④ レスポンス確認
 ```
+
+---
+
+<div class="note-box">
+<strong>補足</strong><br>
+Sendボタンを押すと、実際にサーバーへHTTPリクエストが送信されます。
+</div>
 
 ---
 
@@ -179,6 +187,14 @@ https://jsonplaceholder.typicode.com/users
 | 200 | 成功 |
 | 404 | 見つからない |
 | 500 | サーバーエラー |
+
+---
+
+<div class="note-box">
+<strong>補足</strong><br>
+Headersには通信方式・認証情報・データ形式など、<br>
+リクエストやレスポンスの詳細情報が含まれています。
+</div>
 
 ---
 

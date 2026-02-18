@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD033 -->
 # RESTとJSONの関係（図で整理してみる）
 
 このページでは、
@@ -18,6 +19,14 @@
 - JSON = データの書き方
 
 この3つは、**役割がはっきり分かれている**。
+
+---
+
+<div class="warning-box">
+<strong>⚠ よくある誤解</strong><br>
+REST = JSON ではありません。<br>
+RESTは設計ルール、JSONはデータ形式です。
+</div>
 
 ---
 

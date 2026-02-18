@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD033 -->
 # HTTPメソッド詳解（RESTで一番大事かも）
 
 このページでは、
@@ -22,6 +23,18 @@ URLが「モノ（リソース）」で、HTTPメソッドが「動作」。
 ---
 
 ## RESTではURLに動詞を書かない
+
+---
+
+<div class="note-box">
+💡 REST設計の基本ルール：<br>
+URL＝名詞（リソース）<br>
+HTTPメソッド＝動詞（操作）<br>
+<br>
+この分担だけ覚えておけばOKです。
+</div>
+
+---
 
 RESTでは、
 >**URLは名詞、動詞はHTTPメソッド**
@@ -72,6 +85,14 @@ GET /users/1
 ```
 
 →ユーザーID⁼1を取得する。
+
+---
+
+<div class="warning-box">
+<strong>注意</strong><br>
+⚠ GETは「取得専用」です。<br>
+データ更新処理をGETで行うと、キャッシュや再読み込みにより意図せず更新される危険があります。
+</div>
 
 ---
 
