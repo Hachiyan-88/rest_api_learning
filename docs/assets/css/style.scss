@@ -94,9 +94,11 @@ pre {
 }
 
 pre code {
-  font-family: Consolas, Monaco, Menlo, monospace;
+  display: block;
+  font-family: "Consolas", "Courier New", monospace;
+  text-indent: 0;
   letter-spacing: 0;
-  line-height: 1.5;
+  line-height: 1.6;
   font-size: 0.95em;
   white-space: pre;
 }
