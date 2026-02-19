@@ -80,6 +80,10 @@ pre {
   box-shadow: none;
 }
 
+.highlight pre {
+  padding-left: 0;
+}
+
 pre code {
   line-height: 1.6;
   font-size: 0.95em;

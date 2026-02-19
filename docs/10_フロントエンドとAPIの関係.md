@@ -18,6 +18,15 @@ WEBアプリがどんな感じでデータを取得・表示しているのか�
 
 ---
 
+<div class="note-box">
+<strong>NOTE</strong><br>
+このページでは、Webアプリで使用される <b>Web API</b> を前提に説明しています。<br><br>
+APIという言葉は本来、プログラム同士がやり取りする仕組み全般を指し、<br>
+同一アプリケーション内の処理呼び出しや、ライブラリの機能呼び出しなどにも使われます。
+</div>
+
+---
+
 ## フロントエンドとバックエンドの役割
 
 ### フロントエンド（画面側）
@@ -56,7 +65,7 @@ WEBアプリがどんな感じでデータを取得・表示しているのか�
 ---
 
 <div class="note-box">
-<strong>補足</strong><br>
+<strong>NOTE</strong><br>
 ユーザーには見えませんが、<br>
 画面操作のたびにAPI通信が行われています。
 </div>
@@ -115,7 +124,7 @@ GET /posts
 ---
 
 <div class="warning-box">
-<strong>注意</strong><br>
+<strong>WARNING</strong><br>
 画面に表示されているデータは、<br>
 フロントエンドが保持しているわけではありません。<br>
 必要に応じてAPIから取得しています。

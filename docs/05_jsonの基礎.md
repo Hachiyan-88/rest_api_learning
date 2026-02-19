@@ -99,7 +99,7 @@ APIレスポンスでよく見る形。
 ---
 
 <div class="warning-box">
-<strong>注意</strong><br>
+<strong>WARNING</strong><br>
 ⚠ JSONでは数値と文字列は別物です。<br>
 "25"（文字列）と 25（数値）は違うデータとして扱われます。
 </div>
@@ -229,7 +229,7 @@ Content-Type: application/json
 ---
 
 <div class="warning-box">
-<strong>注意</strong><br>
+<strong>WARNING</strong><br>
 ⚠ JSONはそのままでは処理できません。<br>
 プログラム側で「解析（パース）」して初めて利用できます。
 </div>
@@ -274,7 +274,7 @@ Content-Type: application/json
 ---
 
 <div class="warning-box">
-<strong>注意</strong><br>
+<strong>WARNING</strong><br>
 ⚠ Content-Type: application/json は<br>
 「RESTだからJSON」ではなく、<br>
 「今回の通信の中身がJSON」という意味です。

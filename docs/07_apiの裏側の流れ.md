@@ -13,6 +13,15 @@
 
 ## まず全体像
 
+<div class="note-box">
+<strong>NOTE</strong><br>
+ここでは、SpringなどのWebフレームワークで一般的に採用される
+「Controller / Service / Repository」構成を例に説明します。<br>
+フレームワークによって名称は異なりますが、役割の考え方は共通しています。
+</div>
+
+---
+
 ```JSON
 ①クライアントがリクエスト送信
         ↓
@@ -20,7 +29,7 @@
         ↓
 ③JSON   →   オブジェクトへの変換
         ↓
-④Serviceでビジネスロックを実行する
+④Serviceでビジネスロジックを実行する
         ↓
 ⑤RepositoryでDB操作を行う
         ↓
@@ -31,7 +40,7 @@
 ⑧レスポンス返却
 ```
 
-この流れを分解していく感じで整理していきます。
+この流れを分解しながら整理していきます。
 
 ---
 
@@ -91,7 +100,7 @@ public User create(@RequestBody User user) {
 ---
 
 <div class="note-box">
-<strong>補足</strong><br>
+<strong>NOTE</strong><br>
 Springなどのフレームワークが、自動的に<br>
 JSON ⇄ オブジェクト変換を行っています。
 </div>
@@ -117,7 +126,7 @@ Controllerにはロジックを書き過ぎないようにする。
 
 Repositoryは「データ担当」。
 
-- DBから保存
+- データの取得
 - 保存
 - 更新
 - 削除
