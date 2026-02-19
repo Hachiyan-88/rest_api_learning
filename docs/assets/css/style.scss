@@ -92,8 +92,10 @@ pre code {
 }
 
 pre {
-  tab-size: 2;
+  overflow-x: auto;
+  white-space: pre;
 }
+
 
 /* ========= 引用（blockquote）========= */
 
