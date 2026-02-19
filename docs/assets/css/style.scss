@@ -80,8 +80,17 @@ pre {
   box-shadow: none;
 }
 
+.highlight {
+  display: block;
+}
+
 .highlight pre {
-  padding: 16px;
+  display: block;
+  margin: 0;
+}
+
+.highlight code {
+  display: block;
 }
 
 pre code {
