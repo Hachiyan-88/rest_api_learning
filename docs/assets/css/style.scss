@@ -81,12 +81,18 @@ pre {
 }
 
 .highlight pre {
-  padding-left: 0;
+  padding: 16px;
 }
 
 pre code {
-  line-height: 1.6;
+  font-family: Consolas, Monaco, Menlo, monospace;
+  line-height: 1.5;
   font-size: 0.95em;
+  white-space: pre;
+}
+
+pre {
+  tab-size: 2;
 }
 
 /* ========= 引用（blockquote）========= */
