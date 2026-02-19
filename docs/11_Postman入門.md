@@ -191,7 +191,7 @@ https://jsonplaceholder.typicode.com/users
 ---
 
 <div class="note-box">
-<strong>補足</strong><br>
+<strong>NOTE</strong><br>
 Headersには通信方式・認証情報・データ形式など、<br>
 リクエストやレスポンスの詳細情報が含まれています。
 </div>
